@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#goals">Goals</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <img src="images/profile.jpg" alt="Profile photo" class="profile-img">
+        
+        <h1>Hello, my name is Paule John Auman</h1>
+        <p>I am leaning to become a full-time web developer.</p>
+        
+        <div class="hero-buttons">
+            <a href="#contact" class="btn primary-btn">Contact Me</a>
+            <a href="project" class="btn secondary-btn">View My Project Idea</a>
+            <button id="dark-mode-btn" class="btn dark-btn">Dark Mode</button>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am passionate at building my own website so, i am learning to become a full stack web developer and get a job, work as a free lances and build my won projects.
+      </p>
+    </section>
+
+    <section id="goals">
+      <h2>My Goals</h2>
+      <ul>
+        <li>Become a full-time web developer</li>
+        <li>Build real websites and applications</li>
+        <li>Work as a freelancer</li>
+        <li>Create my own projects</li>
+      </ul>
+    </section>
+
+ <section id="project">
+  <h2>My Projects</h2>
+  <p>Here are some projects I am building as I learn web development.</p>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Personal Profile Page</h3>
+      <p>
+        My first website built with HTML, CSS, and JavaScript. It includes a navigation menu,
+        dark mode, a contact form, and responsive design.
+      </p>
+      <a href="#" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Practice HTML Page</h3>
+      <p>
+        A simple practice page I created to improve my understanding of HTML structure,
+        headings, paragraphs, lists, and links.
+      </p>
+      <a href="practice.html" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Future To-Do App</h3>
+      <p>
+        A future JavaScript project where users will be able to add tasks, mark them complete,
+        and delete them.
+      </p>
+      <a href="#" class="project-link">Coming Soon</a>
+    </div>
+  </div>
+</section>
+    <section id="skills">
+      <h2>Skills I Want to Learn</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Backend development</li>
+      </ol>
+    </section>
+
+    <section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you want to contact me, fill out the form below.</p>
+
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+      <label for="message-input">Your Message</label>
+      <textarea id="message-input" placeholder="Write your message"></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>
+    <p id="form-status"></p>
+  </form>
+</section>
+
+  <section id="message">
+    <h2>My Motivation</h2>
+    <p id="motivation-text">Click the button to see my motivation.</p>
+    <button id="motivation-btn">Show Motivation</button>
+  </section>
+
+  <footer>
+    <p>Built by me as part of my web development journey.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Developer Journey</title>
+</head>
+<body>
+  <header>
+    <h1>Hello, I am learning web development</h1>
+    <p>My goal is to become a full-time web developer.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I am a complete beginner, and I am starting my journey to become a web developer.</p>
+    </section>
+
+    <section>
+      <h2>My Goals</h2>
+      <ul>
+        <li>Get a web developer job</li>
+        <li>Work as a freelancer</li>
+        <li>Build my own projects</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What I Want to Learn</h2>
+      <ol>
+        <li>HTML and CSS</li>
+        <li>JavaScript</li>
+        <li>React and backend development</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>You can find me on GitHub soon.</p>
+      <a href="https://github.com" target="_blank">Visit GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built as part of my web development journey.</p>
+  </footer>
+</body>
+</html>
